@@ -28,10 +28,10 @@ export default async function LoginLurePage({
               </svg>
             </div>
             <h1 className="text-xl font-semibold text-slate-800">
-              Portail Interne
+              Internal Portal
             </h1>
             <p className="text-sm text-slate-500 mt-1">
-              Connectez-vous pour continuer
+              Sign in to continue
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default async function LoginLurePage({
                 htmlFor="identifier"
                 className="block text-sm font-medium text-slate-700 mb-1"
               >
-                Identifiant
+                Username
               </label>
               <input
                 id="identifier"
@@ -51,7 +51,7 @@ export default async function LoginLurePage({
                 required
                 autoComplete="off"
                 className="w-full rounded-lg border border-slate-300 px-3 py-2 text-slate-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none"
-                placeholder="prenom.nom"
+                placeholder="firstname.lastname"
               />
             </div>
             <div>
@@ -59,7 +59,7 @@ export default async function LoginLurePage({
                 htmlFor="password"
                 className="block text-sm font-medium text-slate-700 mb-1"
               >
-                Mot de passe
+                Password
               </label>
               <input
                 id="password"
@@ -74,12 +74,12 @@ export default async function LoginLurePage({
               type="submit"
               className="w-full rounded-lg bg-blue-600 hover:bg-blue-700 transition-colors text-white font-medium py-2.5"
             >
-              Se connecter
+              Sign in
             </button>
           </form>
 
           <p className="text-xs text-slate-400 text-center mt-6">
-            © {new Date().getFullYear()} Service Informatique
+            © {new Date().getFullYear()} IT Department
           </p>
         </div>
       </div>

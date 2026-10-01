@@ -20,46 +20,45 @@ export default function AwarenessPage() {
             </svg>
           </div>
           <h1 className="text-2xl font-bold text-slate-800">
-            Ceci était un test de sécurité
+            This was a security test
           </h1>
         </div>
 
         <p className="text-slate-700 leading-relaxed mb-6">
-          Vous venez de saisir vos identifiants sur une page de{" "}
-          <strong>simulation de phishing</strong> organisée par votre service
-          informatique. Rassurez-vous : aucune de vos données réelles n&apos;a
-          été compromise. L&apos;objectif est de vous aider à reconnaître ce
-          type d&apos;attaque.
+          You just entered your credentials on a{" "}
+          <strong>phishing simulation</strong> page run by your IT department.
+          Don&apos;t worry: none of your real data has been compromised. The goal
+          is to help you recognize this kind of attack.
         </p>
 
         <div className="bg-slate-50 rounded-xl border border-slate-200 p-5 mb-6">
           <h2 className="font-semibold text-slate-800 mb-3">
-            Comment reconnaître une tentative de phishing&nbsp;?
+            How to spot a phishing attempt?
           </h2>
           <ul className="space-y-2 text-sm text-slate-700">
             <li className="flex gap-2">
               <span className="text-amber-600">•</span>
-              Vérifiez toujours l&apos;adresse exacte du lien avant de cliquer.
+              Always check the exact address of a link before clicking.
             </li>
             <li className="flex gap-2">
               <span className="text-amber-600">•</span>
-              Méfiez-vous des messages qui créent un sentiment d&apos;urgence.
+              Be wary of messages that create a sense of urgency.
             </li>
             <li className="flex gap-2">
               <span className="text-amber-600">•</span>
-              Ne saisissez jamais vos identifiants depuis un lien reçu par
-              e-mail sans vérification.
+              Never enter your credentials from a link received by email without
+              verifying it.
             </li>
             <li className="flex gap-2">
               <span className="text-amber-600">•</span>
-              En cas de doute, contactez directement le service informatique.
+              When in doubt, contact the IT department directly.
             </li>
           </ul>
         </div>
 
         <p className="text-sm text-slate-500">
-          Merci de votre participation. Cette sensibilisation contribue à
-          renforcer la sécurité de toute l&apos;organisation.
+          Thank you for taking part. This awareness exercise helps strengthen the
+          security of the whole organization.
         </p>
 
         <div className="mt-8">
@@ -67,7 +66,7 @@ export default function AwarenessPage() {
             href="/"
             className="text-sm text-blue-600 hover:text-blue-700 font-medium"
           >
-            ← Retour
+            ← Back
           </Link>
         </div>
       </div>
